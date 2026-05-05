@@ -63,8 +63,8 @@ nav = [
         { "Datasets" = "api/datasets.md" },
     ]},
     { "Examples" = "examples/index.md" },
-    { "Contributing" = "contributing.md" },
-    { "Contributors" = "contributors.md" },
+    { "Changelog" = "changelog.md" },
+    { "Community" = "contributing.md" },
     { "Citing" = "citing.md" },
 ]
 
@@ -86,6 +86,9 @@ name = "Functional Ultrasound Imaging on Discord"
 [project.extra.analytics]
 provider = "google"
 property = "G-6ES5WY0S10"
+
+[project.validation]
+unresolved_references = false
 
 [project.theme]
 variant = "modern"
